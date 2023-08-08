@@ -151,4 +151,68 @@ footer {
     font-weight: bold;
     margin-top: 5px; /* Adjust margin to position name below the photo */
 }
+/* Media query for screens up to 768px (mobile) */
+@media (max-width: 768px) {
+    header {
+        background-color: #292b3a;
+        color: #fff;
+        padding: 20px 0;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+
+    .logo {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo-image {
+        max-width: 100%;
+        width: 100px;
+        height: 100px;
+        margin-left: 20px;
+    }
+    
+    .shop-name {
+        font-size: 65px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .tagline {
+        font-size: 30px;
+        color: #ff6b6b; /* Match the header color for consistency */
+    }
+    
+    /* Navigation */
+    nav ul {
+        list-style: none;
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        margin-right: 20px;
+    }
+    
+    
+
+    
+    
+}
